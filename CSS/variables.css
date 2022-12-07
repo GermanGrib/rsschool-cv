@@ -1,12 +1,11 @@
 :root {
   /* Colors */
-  --black: #000;
-  --mblack: #333;
-  --white: #fff;
-  --gray: #666;
+  --black: #000000;
+  --mblack: #333333;
+  --white: #ffffff;
+  --gray: #666666;
 
-
-  /* Size */
+/* Size */
   --transitionTime: .3s;
   --cardPadding: 30px;
   --cardBorderRadius: 30px;

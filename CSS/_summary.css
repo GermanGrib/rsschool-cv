@@ -1,0 +1,10 @@
+.summary__container {
+  padding: var(--cardPadding);
+  border: var(--cardBorder);
+  border-radius: var(--cardBorderRadius);
+  line-height: 1.7;
+}
+
+.summary__lastcompany {
+  color: blue;
+}

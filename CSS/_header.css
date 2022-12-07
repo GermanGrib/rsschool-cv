@@ -1,18 +1,9 @@
 .header {
-  padding-bottom: 10px;
   box-shadow: rgba(0, 0, 0, .45) 0 25px 20px -20px;
 }
 
-.main__name.container {
-  position: absolute;
-  color: var(--white);
-  left: 50%;
-  transform: translateX(-50%);
-  top: 10%;
-}
-
-.main__title {
-  color: var(--black);
+.nav__list {
+  flex-wrap: wrap;
 }
 
 .header__container {
@@ -37,13 +28,13 @@
 
 .nav__link:hover,
 .header__link:hover {
-  background-color: var(--mblack);
   color: var(--white);
+  background-color: var(--mblack);
 }
 
 .nav__link:active,
 .header__link:active {
-  opacity: 0.5;
+  opacity: .5;
 }
 
 .header__wpsvg {
@@ -51,4 +42,10 @@
   top: 2%;
   width: 50px;
   height: 50px;
+}
+
+@media (max-width: 1030px) {
+  .nav__list {
+    display: none;
+  }
 }

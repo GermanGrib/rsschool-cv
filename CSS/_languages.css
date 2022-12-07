@@ -1,3 +1,25 @@
+.languages__container {
+  padding: var(--cardPadding);
+  border: var(--cardBorder);
+  border-radius: var(--cardBorderRadius);
+  background-image: url(../assets/img/Engl-levelHTML.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .languages__list {
   text-align: right;
+}
+
+.languages__title {
+  margin-bottom: 30px;
+}
+
+.languages__link {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.languages__level {
+  color: blue;
 }

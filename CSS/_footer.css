@@ -1,22 +1,24 @@
 .footer {
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
   background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
 }
 
 .footer__titlebox {
   padding: 15px;
-  background-color: var(--white);
   border-radius: 50%;
+  background-color: var(--white);
   transition: background-color var(--transitionTime) ease-in-out, color var(--transitionTime) ease-in-out;
 }
 
 .footer__titlebox:hover {
-  background-color: #ff5721;
   color: var(--white);
+  background-color: #ff5721;
 }
 
 .footer__titlebox:active {
-  background-color: var(--white);
   color: #ff5721;
+  background-color: var(--white);
 }
 
 .footer__container {
@@ -25,33 +27,32 @@
 }
 
 .footer__date {
-  font-size: 27px;
   padding: 5px 10px;
+  font-size: 27px;
   transition: color var(--transitionTime) ease-in-out;
 }
 
 .footer__date:focus-visible {
   border: none;
-  outline: none;
   color: #ff5721;
+  outline: none;
 }
 
 .footer__adress {
-  background-color: var(--white);
   border-radius: 50%;
+  background-color: var(--white);
 }
 
 .footer__links {
-  padding: 0 20px;
   display: inline-block;
-  transition: background-color var(--transitionTime) ease-in-out;
+  padding: 0 20px;
 }
 
 .footer__links:focus-visible {
-  background-color: #ff5721;
-  border-radius: 50%;
   border: none;
+  border-radius: 50%;
   outline: none;
+  background-color: #ff5721;
 }
 
 .footer__svg {
@@ -61,19 +62,21 @@
 }
 
 .footer__svg:hover {
-  stroke: #ff5721;
   outline: none;
+
+  stroke: #ff5721;
 }
 
 .footer__svg:active {
-  stroke: var(--white);
-  background-color: var(--black);
   border-radius: 50%;
+  background-color: var(--black);
+
+  stroke: var(--white);
 }
 
 .footer__rsschool {
-  background-color: var(--white);
   border-radius: 50%;
+  background-color: var(--white);
   transition: border-radius var(--transitionTime) ease-in-out, background-color var(--transitionTime) ease-in-out;
 }
 
@@ -82,9 +85,9 @@
 }
 
 .footer__rsschool:active {
-  background-color: #ff5721;
   border: none;
   outline: none;
+  background-color: #ff5721;
 }
 
 .footer__logo {
@@ -92,9 +95,9 @@
 }
 
 .footer__logo:focus-visible {
-  background-color: #ff5721;
   border: none;
   outline: none;
+  background-color: #ff5721;
 }
 
 .footer__logo {
@@ -104,4 +107,29 @@
   background-image: url(../assets/svg/rsSchoolIcon.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__rsschool {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .footer__adress {
+    margin-bottom: 15px;
+  }
+
+  .footer__list {
+    justify-content: center;
+  }
+
+  .footer__titlebox {
+    display: flex;
+    justify-content: center;
+  }
 }

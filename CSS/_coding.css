@@ -1,14 +1,18 @@
+.coding {
+  width: 100%;
+}
+
 .coding__container {
   display: flex;
   justify-content: center;
 }
 
 .coding__box {
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 70%, rgba(255,255,255,1) 100%);
+  width: 50%;
   padding: var(--cardPadding);
   border-radius: var(--cardBorderRadius);
-  width: 50%;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 70%, rgba(255,255,255,1) 100%);
 }
 
 .coding__title {
@@ -41,4 +45,10 @@
 
 .coding__keycolor {
   color: #d2bd73;
+}
+
+@media (max-width: 1200px) {
+  .coding__box {
+    width: 100%;
+  }
 }
