@@ -1,7 +1,9 @@
 .aboutme__container {
   background: var(--black);
-  border-radius: 30px;
-  padding: 30px ;
+  border-radius: var(--cardBorderRadius);
+  padding: var(--cardPadding);
+  width: 50%;
+
 }
 
 .aboutme__img {
@@ -10,52 +12,65 @@
   border-radius: 50%;
 }
 
-.aboutme__owninform {
-  display: flex;
-  align-items: center;
-  width: 25%;
-}
-
-.aboutme__code {
-  font-family: 'Consolos';
-  line-height: 1.5;
-}
-
-.aboutme__code {
+.aboutme__mtitle {
   color: var(--white);
 }
 
-.aboutme__constcolor {
+.aboutme__owninform {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+
+.aboutme__code {
+  font-family: 'Consolos';
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.code__code {
+  color: var(--white);
+}
+
+.code__constcolor {
   color: #4088af;
 }
 
-.aboutme__constname {
+.code__constname {
   color: #40a9ca;
 }
 
-.aboutme__codehooks {
+.code__codehooks {
   color: #eac611;
 }
 
-.aboutme__objectname {
+.code__objectname {
   color: #8cc3d4;
 }
 
-.aboutme__objectvaluenumber {
+.code__objectvaluenumber {
   color: #82af93;
 }
 
-.aboutme__objectvaluestring {
+.code__objectvaluestring {
   color: #c16a3f;
 }
 
 .aboutme__myimage {
-  width: 25%;
+  display: flex;
+  align-items: center;
+  width: 50%;
 }
 
 .aboutme__summary {
+  padding: var(--cardPadding);
   padding-top: 50px;
   line-height: 1.7;
   width: 50%;
-  color: var(--white);
+  border: var(--cardBorder);
+  border-radius: var(--cardBorderRadius);
 }

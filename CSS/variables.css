@@ -3,8 +3,12 @@
   --black: #000;
   --mblack: #333;
   --white: #fff;
+  --gray: #666;
 
 
   /* Size */
   --transitionTime: .3s;
+  --cardPadding: 30px;
+  --cardBorderRadius: 30px;
+  --cardBorder: 8px solid var(--gray);
 }

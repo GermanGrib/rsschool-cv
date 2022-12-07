@@ -25,7 +25,7 @@ while ($me.isAlive()) {
 
 HTML5: [SkillBox](https://skillbox.ru/course/frontend-developer/)
 
-SCC3:  [SkillBox](https://skillbox.ru/course/frontend-developer/)
+CSS3:  [SkillBox](https://skillbox.ru/course/frontend-developer/)
 
 People management
 
@@ -46,7 +46,7 @@ Russian (Native)
 
 ```
 const german = {
-    * Age: 27,
+    * Age: 28,
     * Born: 'Russia, Khabarovsk',
     * Live: 'Fethiye (Turkey) since 10 November 2022y'
 }

@@ -1,0 +1,45 @@
+.skills__container {
+  background-color: var(--black);
+  border-radius: var(--cardBorderRadius);
+  color: var(--white);
+  padding: var(--cardPadding);
+  width: 50%;
+}
+
+.list__svg {
+  width: 50px;
+  height: 50px;
+}
+
+.skills__list {
+  justify-content: space-around;
+  line-height: 45px;
+}
+
+.skills__languages {
+  padding: var(--cardPadding);
+  display: flex;
+  border: var(--cardBorder);
+  width: 50%;
+  border-radius: var(--cardBorderRadius);
+}
+
+.languages__list {
+  width: 35%;
+}
+
+.languages__title {
+  margin-bottom: 30px;
+}
+
+.languages__link {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.languages__img {
+  width: 65%;
+  background-image: url(../assets/img/Engl-levelHTML.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
