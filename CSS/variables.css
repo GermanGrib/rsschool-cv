@@ -1,0 +1,10 @@
+:root {
+  /* Colors */
+  --black: #000;
+  --mblack: #333;
+  --white: #fff;
+
+
+  /* Size */
+  --transitionTime: .3s;
+}

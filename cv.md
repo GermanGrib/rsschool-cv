@@ -1,4 +1,4 @@
-![photo German Gribanov](img/germanGribanov.jpg)
+![photo German Gribanov](assets/img/germanGribanov.jpg)
 
 # Gribanov German Igorevich
 
@@ -40,7 +40,7 @@ Hiring
 Russian (Native)
 
 [English (B1)](https://learnenglish.britishcouncil.org/english-levels/online-english-level-test)
-![english level B1](img/Engl-level.png)
+![english level B1](assets/img/Engl-level.png)
 
 ## About
 
@@ -54,7 +54,7 @@ const german = {
 
 ## Contacts
 Phone: [7-914-151-79-89](https://api.whatsapp.com/send?phone=79141517989)
-![whatsapp icon](img/whatsAppIcon.svg)
+![whatsapp icon](assets/svg/whatsAppIcon.svg)
 
     Mail: germangribanov@mail.ru
     Discord: Герман#8151

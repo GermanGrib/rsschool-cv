@@ -1,0 +1,38 @@
+.header__container {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  box-shadow: rgba(0, 0, 0, .45) 0 25px 20px -20px;
+}
+
+.header__cvicon {
+  width: 100px;
+  height: 120px;
+}
+
+.nav__link,
+.header__link {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 50px;
+  transition: background-color var(--transitionTime) ease-in-out, color var(--transitionTime) ease-in-out, opacity var(--transitionTime) ease-in-out;
+}
+
+.nav__link:hover,
+.header__link:hover {
+  background-color: var(--mblack);
+  color: var(--white);
+}
+
+.nav__link:active,
+.header__link:active {
+  opacity: 0.5;
+}
+
+.header__wpsvg {
+  position: absolute;
+  top: 2%;
+  width: 50px;
+  height: 50px;
+}
