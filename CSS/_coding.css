@@ -1,0 +1,35 @@
+.coding__box {
+  background-color: var(--black);
+  padding: var(--cardPadding);
+  border-radius: var(--cardBorderRadius);
+  width: 50%;
+  margin-left: auto;
+}
+
+.coding__title {
+  color: var(--white);
+}
+
+.coding__text {
+  margin: 0;
+}
+
+.coding__commentcolor {
+  color: #3a6f49;
+}
+
+.coding__whilecolor {
+  color: #9973ae;
+}
+
+.coding__hookscolor {
+  color: #e0ac14;
+}
+
+.coding__selectcolor {
+  color: #80c3e7;
+}
+
+.coding__keycolor {
+  color: #d2bd73;
+}

@@ -14,13 +14,13 @@
 
 .aboutme__mtitle {
   color: var(--white);
+  margin-bottom: 50px;
 }
 
 .aboutme__owninform {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+align-items: flex-end;
   width: 50%;
 }
 
@@ -68,7 +68,6 @@
 
 .aboutme__summary {
   padding: var(--cardPadding);
-  padding-top: 50px;
   line-height: 1.7;
   width: 50%;
   border: var(--cardBorder);
