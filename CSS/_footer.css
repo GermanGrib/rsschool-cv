@@ -1,0 +1,44 @@
+.footer {
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+}
+
+.footer__titlebox {
+  padding: 15px;
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.footer__container {
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+.footer__adress {
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.footer__links {
+  padding: 0 20px;
+}
+
+.footer__svg {
+  width: 70px;
+  height: 70px;
+}
+
+.footer__rsschool {
+  background-color: var(--white);
+  border-radius: 50%;
+}
+
+.footer__logo {
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  background-image: url(../assets/svg/rsSchoolIcon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

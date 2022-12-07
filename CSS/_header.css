@@ -1,5 +1,6 @@
 .header {
   padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, .45) 0 25px 20px -20px;
 }
 
 .main__name.container {
@@ -18,12 +19,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px 25px;
-  box-shadow: rgba(0, 0, 0, .45) 0 25px 20px -20px;
 }
 
 .header__cvicon {
   width: 100px;
-  height: 120px;
+  height: 90px;
 }
 
 .nav__link,
