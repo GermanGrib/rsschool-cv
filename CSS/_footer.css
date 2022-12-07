@@ -6,11 +6,34 @@
   padding: 15px;
   background-color: var(--white);
   border-radius: 50%;
+  transition: background-color var(--transitionTime) ease-in-out, color var(--transitionTime) ease-in-out;
+}
+
+.footer__titlebox:hover {
+  background-color: #ff5721;
+  color: var(--white);
+}
+
+.footer__titlebox:active {
+  background-color: var(--white);
+  color: #ff5721;
 }
 
 .footer__container {
   justify-content: space-between;
   padding: 15px 25px;
+}
+
+.footer__date {
+  font-size: 27px;
+  padding: 5px 10px;
+  transition: color var(--transitionTime) ease-in-out;
+}
+
+.footer__date:focus-visible {
+  border: none;
+  outline: none;
+  color: #ff5721;
 }
 
 .footer__adress {
@@ -20,16 +43,58 @@
 
 .footer__links {
   padding: 0 20px;
+  display: inline-block;
+  transition: background-color var(--transitionTime) ease-in-out;
+}
+
+.footer__links:focus-visible {
+  background-color: #ff5721;
+  border-radius: 50%;
+  border: none;
+  outline: none;
 }
 
 .footer__svg {
   width: 70px;
   height: 70px;
+  transition: background-color var(--transitionTime) ease-in-out;
+}
+
+.footer__svg:hover {
+  stroke: #ff5721;
+  outline: none;
+}
+
+.footer__svg:active {
+  stroke: var(--white);
+  background-color: var(--black);
+  border-radius: 50%;
 }
 
 .footer__rsschool {
   background-color: var(--white);
   border-radius: 50%;
+  transition: border-radius var(--transitionTime) ease-in-out, background-color var(--transitionTime) ease-in-out;
+}
+
+.footer__rsschool:hover {
+  border-radius: 0;
+}
+
+.footer__rsschool:active {
+  background-color: #ff5721;
+  border: none;
+  outline: none;
+}
+
+.footer__logo {
+  transition: background-color var(--transitionTime) ease-in-out;
+}
+
+.footer__logo:focus-visible {
+  background-color: #ff5721;
+  border: none;
+  outline: none;
 }
 
 .footer__logo {
@@ -40,5 +105,3 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
