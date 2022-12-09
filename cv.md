@@ -46,7 +46,7 @@ Russian (Native)
 
 ```
 const german = {
-    * Age: 28,
+    * Age: 29,
     * Born: 'Russia, Khabarovsk',
     * Live: 'Fethiye (Turkey) since 10 November 2022y'
 }

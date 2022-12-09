@@ -1,10 +1,10 @@
 .languages__container {
   padding: var(--cardPadding);
-  box-shadow: var(--cardBorder);
   border-radius: var(--cardBorderRadius);
-  background-image: url(../assets/img/Engl-levelHTML.jpg);
+  background-image: url(../assets/jpg/globeJPG.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  box-shadow: rgb(0 0 0 / 45%) 0 25px 20px -20px;
 }
 
 .languages__list {
@@ -22,4 +22,18 @@
 
 .languages__level {
   color: blue;
+}
+
+@media (max-width: 580px) {
+  .languages__container {
+    padding-top: 435px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .languages__container {
+    padding-top: 300px;
+  }
 }

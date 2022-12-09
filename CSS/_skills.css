@@ -1,6 +1,5 @@
 .skills__container {
   padding: var(--cardPadding);
-  margin-right: 15px;
   border-radius: var(--cardBorderRadius);
   color: var(--white);
   background-color: var(--black);
@@ -23,8 +22,8 @@
 .linkhtml::after {
   content: '';
   background-image: url(../assets/svg/htmlIcon.svg);
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 25px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,8 +32,8 @@
 .linkcss::after {
   content: '';
   background-image: url(../assets/svg/cssIcon.svg);
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 25px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,9 +46,21 @@
 .licom::after {
   content: '';
   background-image: url(../assets/svg/communicateIcon.svg);
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 25px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 580px) {
+
+  .skills__container {
+    padding: 30px 10px;
+  }
+  
+  .skills__list {
+    flex-direction: column;
+    align-items: center;
+  }
 }

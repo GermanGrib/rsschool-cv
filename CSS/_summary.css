@@ -1,10 +1,21 @@
 .summary__container {
   padding: var(--cardPadding);
-box-shadow: var(--cardBorder);
   border-radius: var(--cardBorderRadius);
+  box-shadow: rgb(0 0 0 / 45%) 0 25px 20px -20px;
   line-height: 1.7;
 }
 
 .summary__lastcompany {
   color: blue;
+}
+
+@media (max-width: 390px) {
+  .summary {
+    padding: 10px 0;
+  }
+
+  .summary__container {
+    padding: 0 10px;
+  }
+
 }

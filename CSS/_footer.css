@@ -1,24 +1,19 @@
 .footer {
-  border-top-left-radius: 25%;
-  border-top-right-radius: 25%;
-  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  background: #696969;
 }
 
 .footer__titlebox {
   padding: 15px;
-  border-radius: 50%;
-  background-color: var(--white);
-  transition: background-color var(--transitionTime) ease-in-out, color var(--transitionTime) ease-in-out;
+  color: white;
+  transition: opacity var(--transitionTime) ease-in-out, color var(--transitionTime) ease-in-out;
 }
 
 .footer__titlebox:hover {
-  color: var(--white);
-  background-color: #ff5721;
+  color: var(--black);
 }
 
 .footer__titlebox:active {
-  color: #ff5721;
-  background-color: var(--white);
+  opacity: .5;
 }
 
 .footer__container {
@@ -34,13 +29,9 @@
 
 .footer__date:focus-visible {
   border: none;
-  color: #ff5721;
-  outline: none;
-}
-
-.footer__adress {
+  background-color: var(--black);
   border-radius: 50%;
-  background-color: var(--white);
+  outline: none;
 }
 
 .footer__links {
@@ -52,26 +43,25 @@
   border: none;
   border-radius: 50%;
   outline: none;
-  background-color: #ff5721;
+  background-color: var(--black);
 }
 
 .footer__svg {
   width: 70px;
+  fill: white;
   height: 70px;
   transition: background-color var(--transitionTime) ease-in-out;
 }
 
 .footer__svg:hover {
   outline: none;
-
-  stroke: #ff5721;
+  fill: var(--black);
 }
 
 .footer__svg:active {
   border-radius: 50%;
-  background-color: var(--black);
-
-  stroke: var(--white);
+  fill: white;
+  background-color: black;
 }
 
 .footer__items {
@@ -106,30 +96,8 @@
   animation: opacitychanges 2s ease-in-out forwards infinite alternate;
 }
 
-.footer__rsschool {
-  border-radius: 50%;
-  background-color: var(--white);
-  transition: border-radius var(--transitionTime) ease-in-out, background-color var(--transitionTime) ease-in-out;
-}
-
-.footer__rsschool:hover {
-  border-radius: 0;
-}
-
-.footer__rsschool:active {
-  border: none;
-  outline: none;
-  background-color: #ff5721;
-}
-
 .footer__logo {
   transition: background-color var(--transitionTime) ease-in-out;
-}
-
-.footer__logo:focus-visible {
-  border: none;
-  outline: none;
-  background-color: #ff5721;
 }
 
 .footer__logo {
@@ -139,6 +107,37 @@
   background-image: url(../assets/svg/rsSchoolIcon.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.footer__rsschool {
+  transition: opacity var(--transitionTime) ease-in-out;
+}
+
+.footer__rsschool:hover {
+  opacity: .5;
+}
+
+.footer__rsschool:active {
+  opacity: 1;
+}
+
+
+
+@media (max-width: 1200px) {
+  .github::after {
+    top: -253%;
+    left: 19%;
+    width: 300px;
+    height: 272px;
+    transform: rotate(89deg);
+  }
+
+  .github::before {
+    top: -235%;
+    left: 185%;
+    color: white;
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -163,5 +162,12 @@
   .footer__titlebox {
     display: flex;
     justify-content: center;
+  }
+
+}
+
+@media (max-width: 390px) {
+  .github::after {
+    left: -33%;
   }
 }
