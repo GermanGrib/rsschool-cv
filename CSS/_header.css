@@ -15,6 +15,9 @@
 .header__cvicon {
   width: 100px;
   height: 90px;
+  background-image: url(../assets/svg/cvIcon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav__link,
@@ -44,7 +47,17 @@
   height: 50px;
 }
 
-@media (max-width: 1030px) {
+.header__link::after {
+  content: '';
+  background-image: url(../assets/svg/whatsAppIcon.svg);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+}
+
+@media (max-width: 1055px) {
   .nav__list {
     display: none;
   }

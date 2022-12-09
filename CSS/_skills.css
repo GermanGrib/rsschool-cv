@@ -1,5 +1,6 @@
 .skills__container {
   padding: var(--cardPadding);
+  margin-right: 15px;
   border-radius: var(--cardBorderRadius);
   color: var(--white);
   background-color: var(--black);
@@ -19,6 +20,36 @@
   display: inline-block;
 }
 
+.linkhtml::after {
+  content: '';
+  background-image: url(../assets/svg/htmlIcon.svg);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkcss::after {
+  content: '';
+  background-image: url(../assets/svg/cssIcon.svg);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .list__link:hover {
   color: #33a0db;
+}
+
+.licom::after {
+  content: '';
+  background-image: url(../assets/svg/communicateIcon.svg);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

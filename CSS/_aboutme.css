@@ -1,5 +1,6 @@
 .aboutme__container {
   height: 100%;
+  margin-right: 15px;
   padding: var(--cardPadding);
   border-radius: var(--cardBorderRadius);
   background: var(--black);
@@ -8,7 +9,7 @@
 .main__name {
   position: absolute;
   top: 7%;
-  left: 21%;
+  left: 32%;
   color: var(--white);
   transform: translateX(-50%);
 }
@@ -75,7 +76,7 @@
   align-items: center;
 }
 
-@media (max-width:1030px) {
+@media (max-width:1055px) {
   .main__name {
     top: 3%;
     left: 50%;

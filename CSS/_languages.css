@@ -1,6 +1,6 @@
 .languages__container {
   padding: var(--cardPadding);
-  border: var(--cardBorder);
+  box-shadow: var(--cardBorder);
   border-radius: var(--cardBorderRadius);
   background-image: url(../assets/img/Engl-levelHTML.jpg);
   background-repeat: no-repeat;

@@ -74,6 +74,38 @@
   stroke: var(--white);
 }
 
+.footer__items {
+  position: relative;
+}
+
+.github::before {
+  content: "Here you can see my projects";
+  position: absolute;
+  top: -212%;
+  left: -260%;
+  display: inline-block;
+  width: 174px;
+  font-size: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: opacitychanges 2s ease-in-out forwards infinite alternate;
+}
+
+.github::after {
+  content: "";
+  position: absolute;
+  top: -283%;
+  left: -235%;
+  display: inline-block;
+  width: 369px;
+  height: 270px;
+  background-image: url(../assets/svg/arrowGitIcon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(-9deg);
+  animation: opacitychanges 2s ease-in-out forwards infinite alternate;
+}
+
 .footer__rsschool {
   border-radius: 50%;
   background-color: var(--white);

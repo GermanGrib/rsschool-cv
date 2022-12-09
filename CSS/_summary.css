@@ -1,6 +1,6 @@
 .summary__container {
   padding: var(--cardPadding);
-  border: var(--cardBorder);
+box-shadow: var(--cardBorder);
   border-radius: var(--cardBorderRadius);
   line-height: 1.7;
 }
