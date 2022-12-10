@@ -1,0 +1,70 @@
+.skills__container {
+  padding: var(--cardPadding);
+  border-radius: var(--cardBorderRadius);
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.list__svg {
+  width: 50px;
+  height: 50px;
+}
+
+.skills__list {
+  justify-content: space-around;
+  line-height: 40px;
+}
+
+.list__link {
+  display: inline-block;
+}
+
+.linkhtml::after {
+  content: '';
+  background-image: url(../assets/svg/htmlIcon.svg);
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkcss::after {
+  content: '';
+  background-image: url(../assets/svg/cssIcon.svg);
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list__link:hover {
+  color: #33a0db;
+}
+
+.licom::after {
+  content: '';
+  background-image: url(../assets/svg/communicateIcon.svg);
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkhtml, .linkcss {
+  text-decoration: solid underline var(--white) 2px;
+}
+
+@media (max-width: 580px) {
+
+  .skills__container {
+    padding: 30px 10px;
+  }
+  
+  .skills__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

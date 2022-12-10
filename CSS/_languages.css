@@ -1,0 +1,39 @@
+.languages__container {
+  padding: var(--cardPadding);
+  border-radius: var(--cardBorderRadius);
+  background-image: url(../assets/jpg/globeJPG.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: rgb(0 0 0 / 45%) 0 25px 20px -20px;
+}
+
+.languages__list {
+  text-align: right;
+}
+
+.languages__title {
+  margin-bottom: 30px;
+}
+
+.languages__link {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.engllvl {
+  text-decoration: solid underline blue 3px;
+}
+
+@media (max-width: 580px) {
+  .languages__container {
+    padding-top: 435px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .languages__container {
+    padding-top: 300px;
+  }
+}

@@ -1,4 +1,4 @@
-![photo German Gribanov](img/germanGribanov.jpg)
+![photo German Gribanov](assets/img/germanGribanov.jpg)
 
 # Gribanov German Igorevich
 
@@ -25,7 +25,7 @@ while ($me.isAlive()) {
 
 HTML5: [SkillBox](https://skillbox.ru/course/frontend-developer/)
 
-SCC3:  [SkillBox](https://skillbox.ru/course/frontend-developer/)
+CSS3:  [SkillBox](https://skillbox.ru/course/frontend-developer/)
 
 People management
 
@@ -40,13 +40,13 @@ Hiring
 Russian (Native)
 
 [English (B1)](https://learnenglish.britishcouncil.org/english-levels/online-english-level-test)
-![english level B1](img/Engl-level.png)
+![english level B1](assets/img/Engl-level.png)
 
 ## About
 
 ```
 const german = {
-    * Age: 27,
+    * Age: 29,
     * Born: 'Russia, Khabarovsk',
     * Live: 'Fethiye (Turkey) since 10 November 2022y'
 }
@@ -54,7 +54,7 @@ const german = {
 
 ## Contacts
 Phone: [7-914-151-79-89](https://api.whatsapp.com/send?phone=79141517989)
-![whatsapp icon](img/whatsAppIcon.svg)
+![whatsapp icon](assets/svg/whatsAppIcon.svg)
 
     Mail: germangribanov@mail.ru
     Discord: Герман#8151
