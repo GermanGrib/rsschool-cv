@@ -24,6 +24,7 @@
 }
 
 .coding__text {
+  color: #b6c6c9;
   margin: 0;
 }
 
@@ -31,20 +32,24 @@
   color: #3a6f49;
 }
 
-.coding__whilecolor {
-  color: #9973ae;
+.coding__funccolor {
+  color: #4b8eca;
 }
 
 .coding__hookscolor {
   color: #e0ac14;
 }
 
-.coding__selectcolor {
-  color: #80c3e7;
+.coding__fcolor {
+  color: #c9d0a3;
 }
 
-.coding__keycolor {
-  color: #d2bd73;
+.coding__violhooks {
+  color: #b75399;
+}
+
+.coding__bluehooks {
+  color: #1d61c4;
 }
 
 @media (max-width: 1200px) {

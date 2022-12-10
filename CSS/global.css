@@ -144,16 +144,6 @@ section:not(:last-child) {
 
   section {
     width: 100%;
-  }
-}
-
-@media (max-width: 650px) {
-  .container {
-    margin: 0;
-    width: 100%;
-  }
-
-  section {
     padding: 25px 10px;
   }
 
@@ -164,4 +154,12 @@ section:not(:last-child) {
   section:nth-child(even) {
     padding-right: 10px;
   }
+}
+
+@media (max-width: 650px) {
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+
 }
