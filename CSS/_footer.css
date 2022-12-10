@@ -71,28 +71,29 @@
 .github::before {
   content: "Here you can see my projects";
   position: absolute;
-  top: -212%;
-  left: -260%;
+  top: 0%;
+  left: -180%;
   display: inline-block;
   width: 174px;
   font-size: 24px;
   background-repeat: no-repeat;
   background-size: cover;
   animation: opacitychanges 2s ease-in-out forwards infinite alternate;
+  color: var(--white);
 }
 
 .github::after {
   content: "";
   position: absolute;
-  top: -283%;
-  left: -235%;
+  top: -22%;
+  left: -56%;
   display: inline-block;
-  width: 369px;
-  height: 270px;
+  width: 70px;
+  height: 86px;
   background-image: url(../assets/svg/arrowGitIcon.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  transform: rotate(-9deg);
+  transform: rotate(-45deg);
   animation: opacitychanges 2s ease-in-out forwards infinite alternate;
 }
 
@@ -125,17 +126,16 @@
 
 @media (max-width: 1200px) {
   .github::after {
-    top: -253%;
-    left: 19%;
-    width: 300px;
-    height: 272px;
-    transform: rotate(89deg);
+    top: -184%;
+    left: 31%;
+    width: 100px;
+    height: 137px;
+    transform: rotate(67deg);
   }
 
   .github::before {
-    top: -235%;
-    left: 185%;
-    color: white;
+    top: -172%;
+    left: 96%;
     font-size: 19px;
   }
 }
@@ -148,7 +148,7 @@
   .footer__rsschool {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .footer__adress {
@@ -164,10 +164,44 @@
     justify-content: center;
   }
 
+  .github::before {
+    top: -119%;
+    left: -50%;
+    font-size: 19px;
+  }
+
 }
+
+@media (max-width: 1200px) {
+  .github::after {
+    top: -222%;
+    left: -37%;
+    width: 171px;
+    height: 187px;
+    transform: rotate(47deg);
+  }
+
+  .github::before {
+    top: -244%;
+    left: 58%;
+    font-size: 19px;
+  }
+}
+
 
 @media (max-width: 390px) {
   .github::after {
-    left: -33%;
+    top: 66%;
+    left: 6%;
+    width: 70px;
+    height: 70px;
+    transform: rotate(226deg);
+  }
+
+  .github::before {
+    top: 149%;
+    left: 0;
+    font-size: 11px;
+    width: 85px;
   }
 }

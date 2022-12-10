@@ -53,6 +53,10 @@
   background-size: cover;
 }
 
+.linkhtml, .linkcss {
+  text-decoration: solid underline var(--white) 2px;
+}
+
 @media (max-width: 580px) {
 
   .skills__container {
