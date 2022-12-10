@@ -1,21 +1,21 @@
-@import url(normolize.css);
+@import url(./normolize.css);
 
-@import url(hamburger.min.css);
+@import url(./hamburger.min.css);
 
-@import url(global.css);
+@import url(./global.css);
 
-@import url(variables.css);
+@import url(./variables.css);
 
-@import url(_header.css);
+@import url(./_header.css);
 
-@import url(_aboutme.css);
+@import url(./_aboutme.css);
 
-@import url(_summary.css);
+@import url(./_summary.css);
 
-@import url(_skills.css);
+@import url(./_skills.css);
 
-@import url(_languages.css);
+@import url(./_languages.css);
 
-@import url(_coding.css);
+@import url(./_coding.css);
 
-@import url(_footer.css);
+@import url(./_footer.css);
