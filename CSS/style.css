@@ -6,16 +6,16 @@
 
 @import url(./variables.css);
 
-@import url(./_header.css);
+@import url(./header.css);
 
-@import url(./_aboutme.css);
+@import url(./aboutme.css);
 
-@import url(./_summary.css);
+@import url(./summary.css);
 
-@import url(./_skills.css);
+@import url(./skills.css);
 
-@import url(./_languages.css);
+@import url(./languages.css);
 
-@import url(./_coding.css);
+@import url(./coding.css);
 
-@import url(./_footer.css);
+@import url(./footer.css);
