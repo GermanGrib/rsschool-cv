@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --black: #000000;
+  --mblack: #333333;
+  --white: #ffffff;
+  --gray: #666666;
+
+  /* Size */
+  --transitionTime: .3s;
+  --cardPadding: 30px;
+  --cardPaddingMobile: 10px;
+  --cardBorderRadius: 0;
+}
+
+@keyframes opacitychanges {
+  100% {
+    opacity: 1;
+  }
+
+  0% {
+    opacity: 0;
+  }
+}
