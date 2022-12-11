@@ -8,14 +8,3 @@
 .summary__lastcompany {
   color: blue;
 }
-
-@media (max-width: 390px) {
-  .summary {
-    padding: 10px 0;
-  }
-
-  .summary__container {
-    padding: 0 10px;
-  }
-
-}

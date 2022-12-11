@@ -2,7 +2,6 @@
   font-family: "Roboto";
   font-weight: 300;
   font-style: normal;
-
   src: url("../fonts/roboto_light.woff");
   src: local("Roboto Light"), local("Roboto_Light"),
     url("../fonts/roboto_light.woff2") format("woff2"),
@@ -137,6 +136,10 @@ section:not(:last-child) {
   flex-wrap: wrap;
 }
 
+.hide-text {
+  visibility: hidden;
+}
+
 @media (max-width: 1200px) {
   section:not(:last-child) {
     width: 100%;
@@ -160,6 +163,10 @@ section:not(:last-child) {
   .container {
     margin: 0;
     width: 100%;
+  }
+
+  .mtitle {
+text-align: center;
   }
 
 }

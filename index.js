@@ -3,6 +3,9 @@ const hamburger = document.querySelector('.hamburger')
 const tabHeaderNav = document.querySelector('.header__nav')
 const tabHeaderList = document.querySelector('.nav__list')
 const tabNavLink = document.querySelectorAll('.nav__link')
+const footerGithubLink = document.querySelector('.github')
+const projects = document.querySelector('.projects')
+const projectsLinks = document.querySelectorAll('.projects__link')
 
 
 hamburger.addEventListener('click', () => {
@@ -20,3 +23,4 @@ tabNavLink.forEach((el) => {
     body.classList.remove('body-is-active');
   });
 })
+
