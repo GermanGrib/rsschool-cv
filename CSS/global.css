@@ -162,4 +162,8 @@ section:not(:last-child) {
     width: 100%;
   }
 
+  .mtitle {
+text-align: center;
+  }
+
 }
