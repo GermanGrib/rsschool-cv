@@ -122,8 +122,6 @@
   opacity: 1;
 }
 
-
-
 @media (max-width: 1200px) {
   .github::after {
     top: -184%;
