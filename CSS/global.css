@@ -135,6 +135,11 @@ section:not(:last-child) {
   display: flex;
   flex-wrap: wrap;
 }
+/* DELETE THIS AFTER AUTO-CHECK(and in HTML) */
+.hide-text {
+  visibility: hidden;
+}
+/* ---------------------------- */
 
 .hide-text {
   visibility: hidden;
