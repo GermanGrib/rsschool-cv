@@ -53,7 +53,19 @@
   background-size: cover;
 }
 
-.linkhtml, .linkcss {
+.javascript::after {
+  content: '';
+  background-image: url(../assets/svg/javascript.svg);
+  width: 30px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.linkhtml,
+.linkcss,
+.javascript {
   text-decoration: solid underline var(--white) 2px;
 }
 
@@ -62,7 +74,7 @@
   .skills__container {
     padding: 30px 10px;
   }
-  
+
   .skills__list {
     flex-direction: column;
     align-items: center;
