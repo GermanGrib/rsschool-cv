@@ -141,6 +141,10 @@ section:not(:last-child) {
 }
 /* ---------------------------- */
 
+.hide-text {
+  visibility: hidden;
+}
+
 @media (max-width: 1200px) {
   section:not(:last-child) {
     width: 100%;
