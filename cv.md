@@ -1,22 +1,64 @@
-# Hello everyone!
+![photo German Gribanov](assets/img/germanGribanov.jpg)
 
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=hp0emnPDp9s)
-[![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)](https://germangrib.github.io/rsschool-cv/)
+# Gribanov German Igorevich
 
-My name is German, I'm 29 years old, and I am currently living in Turkey. Since September 2022, I have started to learn web development, specifically frontend. In six months, I have completed a course at SkillBox, and in my opinion, it gave me pretty good knowledge of HTML and CSS. Fortunately, right after that, I came across the Front-end Stage 0 course at the **RS School**. During this course, I solidified my knowledge in HTML and CSS and finally discovered the magic of JS. I won't complain about how painful it was to "start talking" on JS without any prior knowledge of programming in general - those who know will understand.
+******
 
-After the successful completion of Stage 0, I got a job as a part-time front-end developer. I was able to combine work and study.
+## Briefly About Myself:
 
-So far, I am halfway through the Stage 1 Front End **RS School** program and I have been working as a Junior Front End developer for two months.
+ I worked at a federal company for 7 years at **<https://globaldrive.ru/>**. In the beginning, I was a salesperson and by the end, I had 7 stores under my control with around 55 personnel. After that, I chose to change my location and **decided to become a Front-End developer** because I can see the results of my work immediately and, most importantly, my location won't affect my ability to do my job. All I need is an **internet** connection. After gaining some experience as a developer, I want to have a big team and together we can do interesting and new things in the industry or explore new territories with our company.
 
-When I finish the St 1 course, I will learn either React or Angular. I haven't decided yet. I am interested in developing and implementing what is in my head on browser pages. I like to observe and come up with what would be useful for people - it can be a new social network or a web page for advertising or promoting a business - who knows what ideas will pop up in my head.
+******
 
-I hope the available knowledge will be enough to implement my ideas.
+## Code example:
 
-I find it fulfilling to collaborate in a team and learn from the diverse problem-solving approaches of my teammates. I am highly adaptable and can readily adjust to changes in projects or the prevailing circumstances. I am driven to achieve desired outcomes using various strategies, as it is an inherent part of my work ethic. I believe in addressing unresolved questions openly, even if it may be uncomfortable for others, and I strive to make impartial decisions that satisfy all parties involved.
+```
+//my life cycle
+while ($me.isAlive()) {
+  $me.eat();
+  $me.sleep();
+  $me;code();
+}
+```
 
-Thank you all for your attention, I am glad to meet you. Please find attached all my contact details under this video, whether you are students, mentors, employers, designers, clients, or random passers-by - you can always contact me, and I am looking forward to hearing from you soon.
+## Skills
 
-[![German's GitHub stats](https://github-readme-stats.vercel.app/api?username=GermanGrib&theme=dark&show_icons=true)](https://github.com/GermanGrib/github-readme-stats)
+HTML5: [SkillBox](https://skillbox.ru/course/frontend-developer/)
 
-### Thank you for your attention
+CSS3:  [SkillBox](https://skillbox.ru/course/frontend-developer/)
+
+People management
+
+Hiring
+
+    + Communication
+    + Sales
+    + Advertising promotion
+
+## Languages
+
+Russian (Native)
+
+[English (B1)](https://learnenglish.britishcouncil.org/english-levels/online-english-level-test)
+![english level B1](assets/img/Engl-level.png)
+
+## About
+
+```
+const german = {
+    * Age: 29,
+    * Born: 'Russia, Khabarovsk',
+    * Live: 'Fethiye (Turkey) since 10 November 2022y'
+}
+```
+
+## Contacts
+Phone: [7-914-151-79-89](https://api.whatsapp.com/send?phone=79141517989)
+![whatsapp icon](assets/svg/whatsAppIcon.svg)
+
+    Mail: germangribanov@mail.ru
+    Discord: Герман#8151
+    GitHub: GermanGrib
+
+
+**Best regards. Thank you for reading.**
