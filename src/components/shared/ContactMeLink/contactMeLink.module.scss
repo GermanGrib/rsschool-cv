@@ -1,0 +1,15 @@
+@import '../../../styles/common';
+
+.contactMeLink {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  color: $cta-text;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
+  background-color: $primary-accent;
+  border-radius: 10rem;
+  text-decoration: none;
+}

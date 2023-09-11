@@ -1,0 +1,49 @@
+$primary-text: #fff;
+$primary-accent: #D5FF3F;
+$cta-text: #1B1A1A;
+$links-overlay: #3E3E3E;
+$primary-gray: #B1B1B1;
+
+//backgrounds
+$divider: #292929;
+$main-dark: #171717;
+
+// effects
+$transition-set: 0.3s ease-in-out;
+
+// font
+$font-weight-map: (
+  'regular': 400,
+  'medium': 500,
+  'semibold': 600,
+  'bold': 700,
+);
+
+// (FontSize, LineHeight)
+
+$title1: 4rem, 100%;
+$title2: 3rem, 100%;
+$title3: 2.4rem, 100%;
+
+$text1: 2rem, 120%;
+$text2: 1.5rem, 130%;
+$text3: 1.6rem, 130%;
+
+$text1-mob: 1.8rem 120%;
+
+$font-type-map: (
+  'h1': $title1,
+  'h2': $title2,
+  'h3': $title3,
+  'p1': $text1,
+  'p1-mob': $text1-mob,
+  'p2': $text2,
+  'p3': $text3,
+);
+
+// Screens
+
+$desctops-scr: 1440px;
+$laptops-tablets-scr: 1200px;
+$mobiles-scr: 768px;
+$mobiles-mini-scr: 360px;

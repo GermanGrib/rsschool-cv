@@ -1,0 +1,13 @@
+@import '../../styles/common';
+
+.main {
+  padding: 6rem 18rem;
+
+  @media(max-width: $desctops-scr) {
+    padding: 6rem;
+  }
+
+  @media(max-width: $mobiles-scr) {
+    padding: 6rem 0;
+  }
+}
