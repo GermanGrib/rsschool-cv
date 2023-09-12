@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+import { ReactElement, useEffect, useState } from 'react';
 import { Footer } from '../Footer';
 import { Header } from '../Header';
 import { Main } from '../Main';
 import { TabsContext } from '../Tabs/TabsContext';
 
-function App() {
+function App(): ReactElement {
   const [activeTab, setActiveTab] = useState(() => {
     const storedValue = localStorage.getItem('activeTab');
     return storedValue ? parseInt(storedValue, 10) : 0;

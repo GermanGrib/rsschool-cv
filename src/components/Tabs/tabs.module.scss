@@ -10,6 +10,11 @@
     position: relative;
     color: $primary-gray;
     cursor: pointer;
+    transition: color $transition-set;
+
+    &:hover {
+      color: $primary-accent;
+    }
 
     &_active {
       color: $primary-accent;

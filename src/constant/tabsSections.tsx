@@ -1,24 +1,28 @@
+import { SectionFour } from '../components/Sections/SectionFour';
+import { SectionOne } from '../components/Sections/SectionOne';
+import { SectionTwo } from '../components/Sections/SectionTwo';
+import { SectionThree } from '../components/Sections/SectioneThree';
 import { ITabsSection } from '../types/interfaces';
 
 export const tabsSections: ITabsSection[] = [
   {
     label: 'About',
-    content: <div>1</div>,
+    content: <SectionOne />,
   },
   {
     label: 'Skills',
-    content: <div>2</div>,
+    content: <SectionTwo />,
   },
   {
     label: 'Education',
-    content: <div>3</div>,
+    content: <SectionThree />,
   },
   {
     label: 'Experience',
-    content: <div>4</div>,
+    content: <SectionFour />,
   },
-  {
-    label: 'Portfolio',
-    content: <div>5</div>,
-  },
+  // {
+  //   label: 'Portfolio',
+  //   content: <div>5</div>,
+  // },
 ];

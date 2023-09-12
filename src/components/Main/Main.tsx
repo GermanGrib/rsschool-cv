@@ -7,7 +7,6 @@ function Main(): ReactElement {
   const { activeTab } = useTabsContext();
   return (
     <main className={styles.main}>
-      <div>Main Section</div>
       {tabsSections.map((data, ind) => {
         return activeTab === ind ? <div key={data.label}>{data.content}</div> : '';
       })}
