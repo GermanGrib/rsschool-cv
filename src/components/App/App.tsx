@@ -15,8 +15,6 @@ function App(): ReactElement {
     threshold: 0,
     onChange: (inView) => {
       setIsVisible(inView);
-      console.log('WORK');
-      console.log(inView);
     },
   });
 
