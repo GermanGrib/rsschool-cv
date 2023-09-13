@@ -7,7 +7,7 @@ function ContactsLinks(): ReactElement {
     <div className={styles.svgContainer}>
       {linksData.map((data): ReactElement => {
         return (
-          <a className={styles.svgContainer__links} key={data.label} href={data.href}>
+          <a className={styles.svgContainer__links} key={data.label} href={data.href} target="_blank">
             {data.svg}
           </a>
         );

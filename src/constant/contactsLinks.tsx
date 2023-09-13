@@ -7,21 +7,21 @@ export const linksData = [
   {
     label: 'Discord',
     svg: <Discord />,
-    href: '#',
+    href: 'https://discord.com/users/german_grib',
   },
   {
     label: 'Telegram',
     svg: <Telegram />,
-    href: '#',
+    href: 'https://t.me/+79141517989',
   },
   {
     label: 'Github',
     svg: <Github />,
-    href: '#',
+    href: 'https://github.com/GermanGrib',
   },
   {
     label: 'Mail',
     svg: <Mail />,
-    href: '#',
+    href: 'mailto:germangribanov@mail.ru',
   },
 ];
