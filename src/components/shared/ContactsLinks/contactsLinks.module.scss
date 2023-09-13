@@ -5,6 +5,10 @@
   justify-content: center;
   gap: 1.2rem;
 
+  @media(max-width: $mobiles-scr) {
+    margin-bottom: 2.4rem;
+  }
+
   &__links {
     display: flex;
     justify-content: center;
@@ -13,6 +17,11 @@
     height: 5.6rem;
     border-radius: 50%;
     border: 1px solid $links-overlay;
+    transition: border-color $transition-set;
+
+    &:hover {
+      border-color: $primary-accent;
+    }
 
     & svg {
       width: 2.4rem;

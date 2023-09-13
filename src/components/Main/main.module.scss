@@ -2,12 +2,14 @@
 
 .main {
   padding: 10rem 18rem;
+  height: 100%;
+  width: 100%;
 
   @media(max-width: $desctops-scr) {
     padding: 10rem 6rem;
   }
 
   @media(max-width: $mobiles-scr) {
-    padding: 1.6rem;
+    padding: 0;
   }
 }

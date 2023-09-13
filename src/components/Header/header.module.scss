@@ -2,10 +2,15 @@
 
 .header {
   width: 32.8rem;
-  height: 100%;
+  min-width: 32.8rem;
   background-color: $divider;
   border-radius: 2rem;
   border: 1px solid $links-overlay;
+
+  @media(max-width: $mobiles-scr) {
+    width: 100%;
+    height: auto;
+  }
 
   &__container {
     display: flex;

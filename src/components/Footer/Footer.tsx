@@ -2,10 +2,15 @@ import styles from './footer.module.scss';
 
 import { ReactElement } from 'react';
 import { Tabs } from '../Tabs';
+import classNames from 'classnames';
 
-function Footer(): ReactElement {
+interface IFooter {
+  fixed: string;
+}
+
+function Footer({ fixed }: IFooter): ReactElement {
   return (
-    <footer className={styles.root}>
+    <footer className={classNames(styles.root, styles[fixed])}>
       <nav className={styles.root__nav}>
         <Tabs />
       </nav>

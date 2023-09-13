@@ -1,0 +1,99 @@
+@import '../../../../styles/common';
+
+.list__item {
+  display: flex;
+  position: relative;
+  padding: 2.8rem 3.2rem;
+  justify-content: space-between;
+  border: 1px solid $links-overlay;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: color $transition-set, background-color $transition-set;
+
+  @media(max-width:$mobiles-scr) {
+    border-radius: 2rem;
+  }
+
+  &:hover {
+    background-color: $primary-accent;
+    color: $cta-text;
+  }
+
+  &:hover .list__infoContainer_hover {
+    opacity: 1;
+    color: $primary-text;
+  }
+}
+
+.list__infoContainer {
+
+  @media(max-width:$mobiles-scr) {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  &_hover {
+    position: absolute;
+    width: 26.7rem;
+    height: 19rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 2rem;
+    z-index: 1;
+    border-radius: 2rem;
+    transition: opacity $transition-set, color $transition-set;
+
+    @media(max-width: $mobiles-scr) {
+      display: flex;
+      position: static;
+      width: 15.3rem;
+      height: 10.8rem;
+      opacity: 1;
+      transform: unset;
+    }
+
+    &.isZoomed {
+      left: 30%;
+      transform: scale(1.7);
+      z-index: 2;
+
+      @media(max-width: $mobiles-scr) {
+        transform: translateX(-50%);
+        scale: 3;
+      }
+
+      @media(max-width: 480px) {
+        transform: translateX(-30%);
+      }
+    }
+  }
+
+  &_hoverImg {
+    border-radius: 2rem;
+
+    @media(max-width: $mobiles-scr) {
+      object-fit: contain;
+      flex-grow: 1;
+    }
+  }
+
+  &_course {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+  }
+}
+
+.list__svg {
+  width: 2.4rem;
+  height: 2.4rem;
+
+  @media(max-width: $mobiles-scr) {
+    display: none;
+  }
+}

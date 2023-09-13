@@ -1,4 +1,39 @@
+@import '../../styles/common';
+
 .root {
+
+  @media(max-width: $mobiles-scr) {
+
+    &.fixed {
+      position: fixed;
+      width: 96%;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $main-dark;
+      z-index: 5;
+      border-radius: 2rem;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+    }
+
+  }
+
+  @media(max-width: 580px) {
+
+    &.fixed {
+      width: 95%;
+    }
+
+  }
+
+  @media(max-width: 500px) {
+
+    &.fixed {
+      width: 94%;
+    }
+
+  }
 
   &__nav {
     display: flex;
@@ -6,5 +41,10 @@
     width: 15rem;
     align-items: center;
     justify-content: end;
+
+    @media(max-width: $mobiles-scr) {
+      justify-content: center;
+      width: 100%;
+    }
   }
 }

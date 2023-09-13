@@ -6,19 +6,19 @@ export const mySkills = {
 export const myEducation = [
   {
     course: 'SkillBox (HTML, CSS, Git)',
-    certificateLink: '#',
+    certificateLink: '/images/certificateSkillBox.jpg',
   },
   {
     course: 'The Rolling Scope School (Stage 0)',
-    certificateLink: '#',
+    certificateLink: '/images/certificateRSSt0.jpg',
   },
   {
     course: 'The Rolling Scope School (Stage 1)',
-    certificateLink: '#',
+    certificateLink: '/images/inProgress.jpg',
   },
   {
     course: 'The Rolling Scope School (Stage 2)',
-    certificateLink: '#',
+    certificateLink: '/images/inProgress.jpg',
   },
 ];
 
