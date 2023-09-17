@@ -1,6 +1,6 @@
 export const mySkills = {
   hard: ['React', 'TypeScript', 'JavaScript', 'Git', 'SASS', 'HTML', 'CSS', 'WebPack', 'Vite'],
-  other: ['People management', 'Hiring', 'Advertising promotion', 'Sales'],
+  soft: ['Communication', 'Code Review', 'Team management','Time management','Analytical skills', 'Strategic planning', 'Requirements gathering'],
 };
 
 export const myEducation = [
@@ -24,13 +24,13 @@ export const myEducation = [
 
 export const myExperience = [
   {
-    company: 'Global Drive',
+    company: 'Global Drive(IT path)',
     role: 'FrontEnd Developer',
     startDuration: '01.03.2022',
     finishDuration: 'until today',
   },
   {
-    company: 'Global Drive-key',
+    company: 'Global Drive(Commercial path)',
     role: 'Manager',
     startDuration: '01.07.2014',
     finishDuration: '01.01.2022',

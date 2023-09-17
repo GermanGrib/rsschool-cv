@@ -4,7 +4,7 @@
 
   @media(max-width: $mobiles-scr) {
     opacity: 0;
-    transition: opacity $transition-set;
+    transition: opacity .1s ease-in-out;
 
     &.fixed {
       position: fixed;

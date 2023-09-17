@@ -19,8 +19,8 @@ function SectionTwo(): ReactElement {
       <SectionTitle>My skills</SectionTitle>
       <h3 className={styles.list__title}>Hard</h3>
       {renderSkillsList(mySkills.hard)}
-      <h3 className={styles.list__title}>Other</h3>
-      {renderSkillsList(mySkills.other)}
+      <h3 className={styles.list__title}>Soft</h3>
+      {renderSkillsList(mySkills.soft)}
     </div>
   );
 }
