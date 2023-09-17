@@ -11,4 +11,5 @@ export default defineConfig({
       stream: 'stream-browserify',
     },
   },
+  base: './',
 });

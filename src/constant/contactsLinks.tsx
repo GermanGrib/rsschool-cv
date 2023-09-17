@@ -2,6 +2,7 @@ import Discord from '../assets/discord.svg';
 import Telegram from '../assets/telegram.svg';
 import Github from '../assets/github.svg';
 import Mail from '../assets/mail.svg';
+import Printer from '../assets/printer.svg';
 
 export const linksData = [
   {
@@ -23,5 +24,10 @@ export const linksData = [
     label: 'Mail',
     svg: <Mail />,
     href: 'mailto:germangribanov@mail.ru',
+  },
+  {
+    label: 'Print',
+    svg: <Printer />,
+    href: 'https://drive.google.com/file/d/108w7Jhs8tekYLLkBuPeqL5Pbk6Y9zua5/view?usp=drive_link',
   },
 ];

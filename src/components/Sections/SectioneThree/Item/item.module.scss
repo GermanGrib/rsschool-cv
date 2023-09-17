@@ -10,10 +10,6 @@
   cursor: pointer;
   transition: color $transition-set, background-color $transition-set;
 
-  @media(max-width:$mobiles-scr) {
-    border-radius: 2rem;
-  }
-
   &:hover {
     background-color: $primary-accent;
     color: $cta-text;
@@ -22,6 +18,20 @@
   &:hover .list__infoContainer_hover {
     opacity: 1;
     color: $primary-text;
+  }
+
+  @media(max-width:$mobiles-scr) {
+    border-radius: 2rem;
+
+    &:hover {
+      background-color: transparent;
+      color: $primary-text;
+    }
+  
+    &:hover .list__infoContainer_hover {
+      opacity: 1;
+      color: $primary-text;
+    }
   }
 }
 

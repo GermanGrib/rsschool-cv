@@ -3,6 +3,8 @@
 .root {
 
   @media(max-width: $mobiles-scr) {
+    opacity: 0;
+    transition: opacity $transition-set;
 
     &.fixed {
       position: fixed;
@@ -15,6 +17,7 @@
       border-radius: 2rem;
       border-top-right-radius: 0;
       border-top-left-radius: 0;
+      opacity: 1;
     }
 
   }
