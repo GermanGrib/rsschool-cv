@@ -14,11 +14,11 @@ export const myEducation = [
   },
   {
     course: 'The Rolling Scope School (Stage 1)',
-    certificateLink: './images/inProgress.jpg',
+    certificateLink: './images/certificateRSSt0.jpg',
   },
   {
     course: 'The Rolling Scope School (Stage 2)',
-    certificateLink: './images/inProgress.jpg',
+    certificateLink: './images/certificateRSSt0.jpg',
   },
 ];
 

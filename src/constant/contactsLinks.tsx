@@ -28,6 +28,6 @@ export const linksData = [
   {
     label: 'Print',
     svg: <Printer />,
-    href: 'https://drive.google.com/file/d/108w7Jhs8tekYLLkBuPeqL5Pbk6Y9zua5/view?usp=drive_link',
+    href: 'https://drive.google.com/file/d/1I6u0hXaUJEAc4RTvZk33bMPC7oimcTx3/view?usp=drive_link',
   },
 ];
