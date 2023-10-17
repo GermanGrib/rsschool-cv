@@ -1,0 +1,205 @@
+.footer {
+  background: #696969;
+}
+
+.footer__titlebox {
+  padding: 15px;
+  color: white;
+  transition: opacity var(--transitionTime) ease-in-out, color var(--transitionTime) ease-in-out;
+}
+
+.footer__titlebox:hover {
+  color: var(--black);
+}
+
+.footer__titlebox:active {
+  opacity: .5;
+}
+
+.footer__container {
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+.footer__date {
+  padding: 5px 10px;
+  font-size: 27px;
+  transition: color var(--transitionTime) ease-in-out;
+}
+
+.footer__date:focus-visible {
+  border: none;
+  background-color: var(--black);
+  border-radius: 50%;
+  outline: none;
+}
+
+.footer__links {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.footer__links:focus-visible {
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: var(--black);
+}
+
+.footer__svg {
+  width: 70px;
+  fill: white;
+  height: 70px;
+  transition: background-color var(--transitionTime) ease-in-out;
+}
+
+.footer__svg:hover {
+  outline: none;
+  fill: var(--black);
+}
+
+.footer__svg:active {
+  border-radius: 50%;
+  fill: white;
+  background-color: black;
+}
+
+.footer__items {
+  position: relative;
+}
+
+.github::before {
+  content: "Here you can see my projects";
+  position: absolute;
+  top: 0%;
+  left: -180%;
+  display: inline-block;
+  width: 174px;
+  font-size: 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: opacitychanges 2s ease-in-out forwards infinite alternate;
+  color: var(--white);
+}
+
+.github::after {
+  content: "";
+  position: absolute;
+  top: -22%;
+  left: -56%;
+  display: inline-block;
+  width: 70px;
+  height: 86px;
+  background-image: url(../assets/svg/arrowGitIcon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(-45deg);
+  animation: opacitychanges 2s ease-in-out forwards infinite alternate;
+}
+
+.footer__logo {
+  transition: background-color var(--transitionTime) ease-in-out;
+}
+
+.footer__logo {
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  background-image: url(../assets/svg/rsSchoolIcon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__rsschool {
+  transition: opacity var(--transitionTime) ease-in-out;
+}
+
+.footer__rsschool:hover {
+  opacity: .5;
+}
+
+.footer__rsschool:active {
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .github::after {
+    top: -184%;
+    left: 31%;
+    width: 100px;
+    height: 137px;
+    transform: rotate(67deg);
+  }
+
+  .github::before {
+    top: -172%;
+    left: 96%;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__rsschool {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .footer__adress {
+    margin-bottom: 15px;
+  }
+
+  .footer__list {
+    justify-content: center;
+  }
+
+  .footer__titlebox {
+    display: flex;
+    justify-content: center;
+  }
+
+  .github::before {
+    top: -119%;
+    left: -50%;
+    font-size: 19px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .github::after {
+    top: -222%;
+    left: -37%;
+    width: 171px;
+    height: 187px;
+    transform: rotate(47deg);
+  }
+
+  .github::before {
+    top: -244%;
+    left: 58%;
+    font-size: 19px;
+  }
+}
+
+
+@media (max-width: 390px) {
+  .github::after {
+    top: 66%;
+    left: 6%;
+    width: 70px;
+    height: 70px;
+    transform: rotate(226deg);
+  }
+
+  .github::before {
+    top: 149%;
+    left: 0;
+    font-size: 11px;
+    width: 85px;
+  }
+}
