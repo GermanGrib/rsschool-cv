@@ -10,7 +10,9 @@ function ProviderProfile(): ReactElement {
       <img className={styles.providerInfo__img} src="./images/provider.jpg" alt="provider picture" />
       <h1 className={styles.providerInfo__title}>German Gribanov</h1>
       <div className={styles.providerInfo__role}>Frontend Developer</div>
-      <div className={styles.providerInfo__age}>08.12.1993 {currentAge} years</div>
+      <div className={styles.providerInfo__age}>
+        <span className={styles.providerInfo__date}>08.12.1993</span> {currentAge} years
+      </div>
     </div>
   );
 }

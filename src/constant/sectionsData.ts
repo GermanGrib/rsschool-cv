@@ -1,24 +1,35 @@
 export const mySkills = {
-  hard: ['React', 'TypeScript', 'JavaScript', 'Git', 'SASS', 'HTML', 'CSS', 'WebPack', 'Vite'],
-  soft: ['Communication', 'Code Review', 'Team management','Time management','Analytical skills', 'Strategic planning', 'Requirements gathering'],
+  hard: ['React', 'TypeScript', 'JavaScript', 'Git', 'SASS', 'HTML', 'CSS', 'WebPack', 'Vite', 'AWS-Fundamentals'],
+  soft: [
+    'Communication',
+    'Code Review',
+    'Team management',
+    'Time management',
+    'Analytical skills',
+    'Strategic planning',
+    'Requirements gathering',
+  ],
 };
-
 export const myEducation = [
   {
-    course: 'SkillBox (HTML, CSS, Git)',
+    course: 'SkillBox (HTML, CSS, Git) - 3 months',
     certificateLink: './images/certificateSkillBox.jpg',
   },
   {
-    course: 'The Rolling Scope School (Stage 0)',
+    course: 'RS (EPAM courses) JavaScript, HTML, SASS, GIT - 3 months',
     certificateLink: './images/certificateRSSt0.jpg',
   },
   {
-    course: 'The Rolling Scope School (Stage 1)',
-    certificateLink: './images/certificateRSSt0.jpg',
+    course: 'RS (EPAM courses) React, TypeScript, JavaScript, SASS - 6 months',
+    certificateLink: './images/certificateRSSt2.jpg',
   },
   {
-    course: 'The Rolling Scope School (Stage 2)',
-    certificateLink: './images/certificateRSSt0.jpg',
+    course: 'RS (EPAM courses) AWS-Fundamentals',
+    certificateLink: '',
+  },
+  {
+    course: 'RS (EPAM courses) React - in progress',
+    certificateLink: '',
   },
 ];
 

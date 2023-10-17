@@ -6,7 +6,7 @@ import styles from './header.module.scss';
 import { ReactElement } from 'react';
 
 function Header(): ReactElement {
-  let currentYear = getFullYear();
+  const currentYear = getFullYear();
 
   return (
     <header className={styles.header}>
@@ -17,7 +17,15 @@ function Header(): ReactElement {
         </div>
         <div className={styles.header__belowContainer}>
           <ContactMeLink />
-          <div className={styles.header__rights}>{`© ${currentYear}. All Rights Reserved`}</div>
+          <div className={styles.header__rights}>
+            <div>© {currentYear}. All Rights Reserved</div>
+            <div>
+              Design by{' '}
+              <a className={styles.header__designLink} href="https://www.behance.net/nastymaxx">
+                Anastasiya Maksimenko
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </header>

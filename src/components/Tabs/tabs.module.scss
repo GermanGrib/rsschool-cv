@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 6rem;
 
-  @media(max-width: $mobiles-scr) {
+  @media (max-width: $mobiles-scr) {
     gap: 0;
     width: 100%;
     padding: 0.4rem;
@@ -18,19 +18,22 @@
     display: flex;
     position: relative;
     color: $primary-gray;
-    cursor: pointer;
-    transition: color $transition-set;
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 2.6rem;
+    cursor: pointer;
+    transition:
+      color $transition-set,
+      background-color $transition-set;
 
-    @media(max-width: $mobiles-scr) {
+    @media (max-width: $mobiles-scr) {
       flex-grow: 1;
       justify-content: center;
       padding: 1.2rem 0;
       font-size: 1.2rem;
       line-height: 1.5rem;
       font-weight: 400;
+      border-radius: 1.6rem;
     }
 
     &:hover {
@@ -39,10 +42,13 @@
 
     &_active {
       color: $primary-accent;
+    }
 
-      @media(max-width: $mobiles-scr) {
-        background-color: $divider;
-        border-radius: 1.6rem;
+    &:hover,
+    &_active {
+      @media (max-width: $mobiles-scr) {
+        background-color: $primary-accent;
+        color: $cta-text;
       }
     }
 
@@ -58,7 +64,7 @@
       align-items: center;
       border: 1px solid $primary-accent;
 
-      @media(max-width: $mobiles-scr) {
+      @media (max-width: $mobiles-scr) {
         display: none;
       }
     }

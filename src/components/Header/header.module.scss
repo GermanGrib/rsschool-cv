@@ -7,7 +7,7 @@
   border-radius: 2rem;
   border: 1px solid $links-overlay;
 
-  @media(max-width: $mobiles-scr) {
+  @media (max-width: $mobiles-scr) {
     width: 100%;
     height: auto;
   }
@@ -31,5 +31,11 @@
   &__rights {
     color: $primary-gray;
     font-size: 1.2rem;
+  }
+
+  &__designLink {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid $primary-gray;
   }
 }

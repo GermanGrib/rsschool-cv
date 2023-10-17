@@ -6,9 +6,11 @@ import { ISectionThreeData } from '../SectioneThree';
 
 function Item({ data }: ISectionThreeData): ReactElement {
   const [isZoomed, setIsZoomed] = useState(false);
+
   function zoomHover(hide?: boolean): void {
     hide ? setIsZoomed(false) : setIsZoomed(!isZoomed);
   }
+
   return (
     <li
       key={data.course}
@@ -19,7 +21,11 @@ function Item({ data }: ISectionThreeData): ReactElement {
       <div className={styles.list__infoContainer}>
         <div className={styles.list__infoContainer_course}>{data.course}</div>
         <div className={classNames(styles.list__infoContainer_hover, [{ [styles.isZoomed]: isZoomed }])}>
-          <img className={styles.list__infoContainer_hoverImg} src={data.certificateLink} alt="course certificate" />
+          <img
+            className={styles.list__infoContainer_hoverImg}
+            src={data.certificateLink}
+            alt={data.certificateLink && 'course certificate'}
+          />
         </div>
       </div>
       <svg className={styles.list__svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
